@@ -1,0 +1,52 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+@media screen and (max-width: 782px) {
+
+	/** fixes the right padding of boxes on mobile */
+	.wrap {
+		margin-right: 0;
+	}
+
+	/** Makes stats boxes full width instead of 50/50 */
+	.metabox-holder .postbox-container {
+		width: 100% !important;
+		padding-right: 0 !important;
+	}
+
+	/** Removes padding from boxes on mobile */
+	.postbox-container #normal-sortables,
+	.postbox-container #side-sortables {
+		margin-left: 8px !important;
+		margin-right: 8px !important;
+	}
+
+	/** Update the All Time stats numbers */
+
+	#statchart-box #stats-nuggets ul li:last-child strong {
+		display: block;
+		width: 50%;
+	}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+	#statchart-box #stats-nuggets ul li,
+	#statchart-box #stats-nuggets li#bestever {
+		width: 50%;
+		border-left: none;
+		border-right: none;
+	}
+
+	#statchart-box #stats-nuggets ul li:last-child {
+		width: 100%;
+		margin-top: 16px;
+		padding-top: 16px;
+		border-top: 1px dotted #ababab;
+	}
+
+}
