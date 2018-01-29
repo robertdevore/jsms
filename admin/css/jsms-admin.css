@@ -48,5 +48,11 @@
 		padding-top: 16px;
 		border-top: 1px dotted #ababab;
 	}
+	
+	.statsdiv {
+		float: left;
+		margin-right: 0;
+		width: 100%;
+	}
 
 }
