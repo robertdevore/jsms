@@ -1,3 +1,4 @@
+
 /**
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
@@ -5,7 +6,7 @@
 
 @media screen and (max-width: 782px) {
 
-	/** fixes the right padding of boxes on mobile */
+	/** fixes the right margin of boxes on mobile */
 	.wrap {
 		margin-right: 0;
 	}
@@ -16,7 +17,7 @@
 		padding-right: 0 !important;
 	}
 
-	/** Removes padding from boxes on mobile */
+	/** Updates margin for boxes on mobile */
 	.postbox-container #normal-sortables,
 	.postbox-container #side-sortables {
 		margin-left: 8px !important;
